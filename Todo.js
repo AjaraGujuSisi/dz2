@@ -2,7 +2,7 @@ import React from 'react';
 import classes from './Todo.module.scss';
 import Button from '../button/Button';
 
-const Todo = ({ todo, handleDone, handleDelete }) => {
+const Todo = ({ todo, handleDone, handleDelete ,handleAdd}) => {
     return (
         <li className={classes.li}>
             <div className={classes.info}>
